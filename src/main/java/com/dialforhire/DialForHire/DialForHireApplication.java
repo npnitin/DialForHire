@@ -22,7 +22,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @EntityScan("com.dialforhire")
 @EnableJpaRepositories("com.dialforhire")
 public class DialForHireApplication {
-
 	@Autowired
 	static EstimateServce service;
 	public static void main(String[] args) throws JsonProcessingException {
